@@ -1,0 +1,205 @@
+html {
+    box-sizing:  border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.back-img {
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-image: url("netflix_img.jpg");
+    background-size: cover;
+    /* background: repeat; */
+    /* opacity: .8; */
+}
+
+#netflix {
+    color: red;
+    font-size: 3.5rem;
+    font-weight: bold;
+    flex-basis: 85%;
+}
+#eng {
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    width: 106px;
+    height: 31px;
+    padding: 0px 15px;
+    margin-right: 20px;
+    margin-top: 22px;
+    border-radius: 2px;
+    background-color: black;
+    opacity: .7;
+}
+
+#sing {
+    color: white;
+    background-color: red;
+    height: 2rem;
+    width: 6rem;
+    font-weight: bold;
+    padding: 2px 16px;
+    margin-top: 21px;
+    border-radius: 4px;
+    margin-right: 50px;
+}
+
+.text {
+    margin-top: 10rem;
+}
+.text p {
+    color: white;
+    text-align: center;
+   
+}
+
+#p1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#p2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+#p3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    word-spacing: 5px;
+    /* color: rgb(176, 22, 22); */
+}
+
+.input-parent {
+    gap: 1rem;
+}
+
+#input-tag {
+    /* width: 30%;
+    margin: 0 auto;
+    background-color: black;
+    opacity: .8; */
+    /* flex-basis: 80%; */
+    background-color: black;
+    width: 350px;
+    height: 50px;
+    margin-right: 5px;
+    
+
+}
+::placeholder {
+    color: rgb(122, 112, 112) !important;
+    /* font-size: 1.5rem; */
+    
+}
+.get-started {
+    margin-left: -13px;
+    color: white;
+    height: 50px;
+    width: 181px;
+    background-color: red;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 8px 28px;
+    border-radius: 4px;
+}
+
+.content {
+    background-color: black;
+}
+
+.textt {
+    /* gap: 2rem; */
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 700px;
+    margin-top: 8rem;
+    padding: 50px 100px;
+    margin-left: 7rem;
+}
+
+.imgg {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 700px;
+    margin-top: 8rem;
+    position: relative;
+}
+.imgg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.imgg img {
+    max-height: 275px;
+    width: 375px;
+}
+.textt p {
+    color: white;
+    /* background-color: black; */
+    flex-basis: 50%;
+}
+.content {
+    /* padding-top: 3rem; */
+}
+.content-p1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.content-p2 {
+    font-size: 1.5rem;
+}
+
+.break-line {
+    /* height: 3px; */
+    border: 3px solid grey;
+    background-color: grey;
+    /* margin-bottom: 2rem; */
+}
+
+
+.faq-section {
+    background-color: black;
+}
+.faq-section h1 {
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.accordion {
+    width: 90%;
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+}
+
+
+.accord_p {
+    color: black;
+    font-size: 1.5rem;
+    /* background-color: black; */
+}
+
+.accord_title {
+    font-size: 1.5rem;
+    color: black;
+}
+
+#ready {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
