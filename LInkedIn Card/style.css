@@ -1,0 +1,136 @@
+html{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 0 auto;
+    margin-top: 5rem;
+    height: 335px;
+    width: 650px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}
+
+#li_img{
+    height: 30px;
+    width: 30px;
+}
+#li_img img{
+    width: 100%;
+    height: 100%;
+    margin-top: -0.1rem;
+    /* flex-grow: 4; */
+}
+#text{
+    flex-grow: 3;
+}
+ul li{
+    margin-top: 1rem;
+}
+
+#text b{
+    margin-left: 337px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* second part */
+
+#gap{
+    width: 600px;
+    height: 2px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+#my_img{
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+}
+#my_img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+   
+}
+
+nav section{
+    display: flex;
+    justify-content: space-between;
+}
+
+#follow{
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(161, 7, 35);
+    margin-top: 2rem;
+}
+
+#my_name{
+    margin-left: -175px;
+    display: inline-block;
+    margin-top: 1.6rem;
+    /* margin-left: 5px; */
+}
+#position{
+    margin-left: -175px;
+    font-size: 20px;
+
+}
+#about{
+    margin-top: 3rem;
+    font-size: 20px;
+    margin-left: 26px;
+    
+}
+nav #sec2{
+    display: flex;
+    justify-content: space-around;
+    gap: 12.5rem;
+    margin-top: 1rem;
+    font-size: 17px;
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* gap */
+
+
+
+nav #card{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#card div button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+   
+}
