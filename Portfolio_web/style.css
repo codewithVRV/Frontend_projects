@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* nav bar */
+#top{
+    background-color: whitesmoke;
+
+}
+
+/* scroll up */
+
+ #scrollUp{
+    background-color: rgb(126,34,206) !important;
+    color: white !important;
+    font-weight: bold;
+ }
+#info{
+    font-size: 30px;
+    color:rgb(126,34,206);
+    font-weight: bold;
+    padding-left: 50px;
+}
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+#text a{
+    color:rgb(126,34,206);
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 50px;
+    
+}
+
+
+.pg-canvas{
+    height: 550px !important;
+    background-color: black;
+    width:100% !important;
+    
+}
+
+
+/* about me */
+
+#self_h{
+    width: 100%;
+    text-align: center;
+    padding-top: 5vh;
+    color: rgb(126,34,206);
+    padding-bottom: 5vh;
+    background-color: whitesmoke;
+}
+
+/* skill */
+
+
+#my_name{
+    padding-top: 5vh;
+}
+
+
+
+#self_img{
+    height: 300px;
+    width: 310px;
+    border: 2px solid rgb(126,34,206);
+    padding: 7px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+#full_stack{
+    color: rgb(126,34,206);
+}
+
+#s_ptag{
+    padding-top: 25px;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+
+
+.self_ul{
+    list-style-type: none;
+    margin-left: 15vh;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#sp{
+    padding-left: 20px;
+}
+
+.my_web{
+    text-decoration: none;
+    color: black;
+}
+
+/* my skills */
+
+#my_skills{
+    text-align: center;
+    padding-top: 35px;
+    background-color: whitesmoke;
+    color:rgb(126,34,206);;
+    padding-bottom: 25px;
+}
+
+.both_skill{
+    padding-top: 5vh;
+    padding-left: 35vh;
+    padding-bottom: 5vh;
+    color: black;
+    font-weight: bold;
+}
+
+.html_python{
+    color:rgb(126,34,206);
+
+}
+
+.one_skill{
+    padding-top: 4vh;
+    color:rgb(126,34,206);
+
+}
+.prog_bar{
+    background-color:#28a746 !important ;
+    opacity: .6;
+}
+
+
+
+
+/* portfolio */
+
+
+#p_head{
+    text-align: center;
+    margin-top: 10vh;
+    color: rgb(126,34,206);
+    background-color: whitesmoke;
+    padding-top:5vh ;
+    padding-bottom: 5vh;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#my_port{
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+#p_head{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+
+.p_img{
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 50px;
+    border: 2px solid rgb(126,34,206);
+}
+.port_heading{
+    margin-top: 80px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.port_one{
+    margin-bottom: 30px;
+}
+
+.p_btn{
+    font-size: 18px;
+    padding: 1.5% 3%;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(126,34,206);
+    border-radius: 5px;
+}
+
+.p_btn:hover{
+    background-color:whitesmoke;
+    color: rgb(126,34,206);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(126,34,206);
+    transition: ease-in-out 0.5s;
+    border-radius: 25px;
+
+
+}
+
+
+/* contact me */
+
+#contact{
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color: rgb(126,34,206);
+    background-color: whitesmoke;
+
+}
+.submit{
+    background-color: rgb(126,34,206) !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+
+
+/* social media icon */
+
+
+
+
+ #contact_h{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:whitesmoke;
+    color: rgb(126,34,206);
+
+}
+
+.icon{
+    margin-left: 85px;
+}
+.icon_name{
+    padding-left: 130px;
+    margin-top: -35px;
+    color: rgb(117, 111, 111);
+    font-weight: bold;
+}
+.icon_name:hover{
+    color: rgb(126,34,206);
+    font-weight: bold;
+    
+}
+.text_d{
+    text-decoration: none;
+
+}
+
+.all_index{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(117, 111, 111);
+    padding-bottom: 5vh;
+}
+.all_index:hover{
+    color: rgb(126,34,206);
+    font-weight: bold;
+
+}
+
+
+#c_right{
+    text-align: center;
+    color: rgb(150, 144, 144);
+    padding-top: 3vh;
+
+
+}
+
+/* hired */
+
+#hired{
+    padding: 5vh;
+    text-align: center;
+    color:rgb(126,34,206);
+}

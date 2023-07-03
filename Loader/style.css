@@ -1,0 +1,151 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+#gapper{
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+#Loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Loader > div {
+    height: 50px;
+    width: 50px;
+    border: 5px solid red;
+    border-top: 5px solid beige;
+    /* background-color: blue; */
+    border-radius: 50%;
+    animation-name: spinner;
+    animation-duration: 1s;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+
+@keyframes spinner {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+/* loader 2 styling */
+
+
+#loader2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loader2 > div{
+    height: 50px;
+    width: 50px;
+    border: 5px solid black;
+    border-top: 5px solid bisque;
+    border-bottom: 5px solid bisque;
+    border-radius: 50%;
+    animation-name: spinner2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes spinner2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* loader 3 syling */
+
+
+#loader3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+}
+
+#loader3 div {
+    height: 100px;
+    width: 15px;
+    background-color: blue;
+}
+
+#loader3 .first{
+    animation-name: spinner3;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+
+#loader3 .second{
+    animation-name: spinner3;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+#loader3 .third{
+    animation-name: spinner3;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes spinner3{
+    0% {
+        height: 50px;
+    }
+    50%{
+        height: 150px;
+    }
+    100%{
+        height: 50px;
+    }
+}
+
+/* loader4 styling */
+
+#loader4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loader4 div {
+    margin-top: 2rem;
+    height: 3px;
+    width: 800px;
+    background-color: blue;
+    animation-name: spinner4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinner4{
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 1000px;
+    }
+    100%{
+        width: 0px;
+    }
+}

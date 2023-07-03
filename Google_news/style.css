@@ -1,0 +1,159 @@
+:root{
+    --mid-gray: #8b8680;
+}
+html {
+    box-sizing: border-box;
+}
+
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+nav{
+    margin-top: 1rem;
+    border-bottom: 1px solid var(--mid-gray);
+    height: 100px;
+}
+
+.google-text{
+    flex-basis: 15%;
+}
+.google {
+    margin-left: 2rem;
+
+}
+.g{
+    color: blue;
+    font-size: 1.5rem;
+}
+.o{
+    color: red;
+    font-size: 1.5rem;
+}
+.or{
+    color: orange;
+    font-size: 1.5rem;
+}
+.gr{
+    color: green;
+    font-size: 1.5rem;
+}
+.news {
+    color: var(--mid-gray);
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+.inp1{
+    flex-basis: 55%;
+    position: relative;
+    
+
+}
+#inp_icon {
+    /* position:absolute; */
+    position: relative;
+    background-image: url("search.svg");
+    background-repeat: no-repeat;
+    top: 3px;
+    left: 5px;
+}
+.search-input{
+    max-width: 80%;
+    margin-left: 10rem;
+}
+
+.setting-help{
+    flex-basis: 25%;
+    gap: 1rem;
+    justify-content: end;
+    align-items: center;
+}
+
+.help-text{
+   cursor: pointer;
+}
+.all-features{
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+.title:hover{
+    color: blue;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+    cursor: pointer;
+}
+
+.weather-wrapper{
+    margin-top: 1.8rem;
+}
+.weather-wrapper .left-side-content #brefing {
+    font-size: 30px;
+    margin-bottom: -2px;
+}
+
+.right-side-content{
+    border: 1px solid black;
+    background-color: #faf9f5 ;
+    width: 20%;
+    padding: .5rem 2rem;
+    border-radius: 10px;
+}
+.right-side-content p {
+    margin: 0;
+}
+
+#right-text {
+    padding: 5px;
+    text-align: justify;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 2.5rem;
+}
+#degree{
+    font-size: 25px;
+}
+
+.right-side-content a {
+    text-decoration: none;
+    color: rgb(25,103,210);
+}
+.right-side-content a:hover {
+    text-decoration: underline;
+}
+
+
+
+.left-one .left-content a {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+.left-one .left-content a:hover {
+    text-decoration: underline;
+    /* color: blue; */
+    text-decoration-color: var(--mid-gray);
+}
+.left-one .left-content img{
+    max-width: 25%;
+ 
+}
+#time {
+    margin-top: -22px;
+}
+
+
+
+.right-one .right-content a {
+    color: black;
+    text-decoration: none;
+    margin-left: 3rem;
+    justify-content: left;
+}
+.right-one .right-content img{
+    width: 30%;
+    height: 30%;
+    border: 1px solid black;
+    margin: 5px 5px;
+}

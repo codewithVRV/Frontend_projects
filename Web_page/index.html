@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+      html{
+        box-sizing: border-box;
+    }
+    
+    *, *::after, *::before{
+        box-sizing: inherit;
+    }
+    
+    @media (max-width: 576px){
+        .product-card{
+            max-width: 15rem;
+            margin: 0 auto;
+            margin-top: 2rem;
+        }
+    }
+    @media (max-width: 920px){
+        .product-card{
+            margin: 1rem auto;
+        }
+    }
+    .cr{
+        height: 230px;
+    }
+    .card{
+        height: 250px;
+    }
+    
+    .cc{
+        height: 40%;
+        padding: .5rem;
+        margin: 0 auto;
+        width: 70%;
+    }
+    
+    div h5{
+        text-align: center;
+    }
+    div p{
+        text-align: center;
+        /* font-size: 20px; */
+        font-weight: bold;
+        color: greenyellow;
+    }
+    .pp{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: fit-content;
+    }
+    </style>
+</head>
+<body>
+
+
+
+    <!-- Nav bar starts here -->
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container">
+          <a class="navbar-brand" href="#">Easy Cart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active nav-lg" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Job List
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Front-end Engineer</a></li>
+                  <li><a class="dropdown-item" href="#">Backend Engineer</a></li>
+                  <li><a class="dropdown-item" href="#">Full Stack Engineer</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-success" type="submit">Cart <span>0</span></button>
+          </form>
+        </div>
+      </nav>
+
+
+      <!-- Craousel image -->
+
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="2.jpg" class="d-block w-100 cr" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpg" class="d-block w-100 cr" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!-- cards  -->
+
+
+      <div class="container">
+        <div class="row mt-5 mb-5 justify-content-between">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card" style="width: 15rem;">
+                    <img src="p1.webp" class="card-img-top cc" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Camera</h5>
+                      <p class="card-text">Up to 70% off</p>
+                      <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card" style="width: 15rem;">
+                    <img src="p4.webp" class="card-img-top  cc" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">String Instrument</h5>
+                    <p class="card-text">Up to 70% off</p>
+                    <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+           </div>
+           <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card  md_one" style="width: 15rem;">
+                    <img src="p2.webp" class="card-img-top cc" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Printer</h5>
+                      <p class="card-text">Up to 70% off</p>
+                      <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card  md_one" style="width: 15rem;">
+                    <img src="p3.webp" class="card-img-top cc" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Headphones</h5>
+                      <p class="card-text">Up to 70% off</p>
+                      <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+      <!-- second cards -->
+
+      <div class="container">
+        <div class="row mt-5 mb-5 justify-content-between">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card" style="width: 15rem;">
+                    <img src="p5.webp" class="card-img-top cc" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Camera</h5>
+                      <p class="card-text">Up to 70% off</p>
+                      <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card" style="width: 15rem;">
+                    <img src="p6.webp" class="card-img-top  cc" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">String Instrument</h5>
+                    <p class="card-text">Up to 70% off</p>
+                    <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+           </div>
+           <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card  md_one" style="width: 15rem;">
+                    <img src="p7.webp" class="card-img-top cc" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Printer</h5>
+                      <p class="card-text">Up to 70% off</p>
+                      <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card  md_one" style="width: 15rem;">
+                    <img src="p8.webp" class="card-img-top cc" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Headphones</h5>
+                      <p class="card-text">Up to 70% off</p>
+                      <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+      <!-- three cards -->
+
+      <div class="container">
+        <div class="row mt-5 mb-5 justify-content-between">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card" style="width: 15rem;">
+                    <img src="p9.webp" class="card-img-top cc" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Camera</h5>
+                      <p class="card-text">Up to 70% off</p>
+                      <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card" style="width: 15rem;">
+                    <img src="p10.webp" class="card-img-top  cc" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">String Instrument</h5>
+                    <p class="card-text">Up to 70% off</p>
+                    <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+           </div>
+           <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card  md_one" style="width: 15rem;">
+                    <img src="p11.webp" class="card-img-top cc" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Printer</h5>
+                      <p class="card-text">Up to 70% off</p>
+                      <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card product-card  md_one" style="width: 15rem;">
+                    <img src="p12.webp" class="card-img-top cc" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Headphones</h5>
+                      <p class="card-text">Up to 70% off</p>
+                      <a href="#" class="btn btn-primary pp">View Product</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- https://stackoverflow.com/questions/35148828/bootstrap-spacing-classes-not-working -->
